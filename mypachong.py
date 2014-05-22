@@ -16,6 +16,7 @@ class WeiBo:
     def __init__(self):
         pass
     #to-do 创建个性的opener以免污染全局控件
+
     def login(self,uname,pwd):
     #登录微博函数
         cj = cookielib.LWPCookieJar()
@@ -122,6 +123,11 @@ class WeiBo:
                         #save_person_info(uid,name,sex,common,fans_num)
                         #conn.commit()
             index = index + 1;
+    def search(keyword,type):
+        http://m.weibo.cn/searchs/weibo?key=%E6%B1%82%E8%81%8C&&page=1;
+        http://m.weibo.cn/searchs/user?q=%E6%B1%82%E8%81%8C&&page=1;
+        pass;
+    def 
 
 class htmlTool:
      #正则表达式，过滤掉html标签
