@@ -78,3 +78,6 @@ print forward
 #print weibo.group()
 #print dd
 print len(arr)
+
+
+print time.clock()
